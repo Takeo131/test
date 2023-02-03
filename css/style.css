@@ -1,0 +1,159 @@
+/************************************************
+                      TOOLS
+************************************************/
+
+*{
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.8rem;
+}
+
+/************************************************
+                      GLOBAL
+************************************************/
+
+body{
+    margin:0;
+    padding:0;
+    line-height:1.5;
+    font-family:'Comgortaa', cursive;
+    background-color:#56719E;
+    /*background-color:#F5F6F4;*/
+    color:#171512;
+}
+
+.container{
+  max-width:1400px;
+  width:95%;
+  margin:auto;
+  background-color:#E5EBF8;
+  padding:2em;
+}
+
+h1, h2, h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+
+section{
+    padding-top:3em;
+}
+
+/************************************************
+                      HEADER
+************************************************/
+.header{
+    width:100%;
+    padding:0 1em 1em;
+    background-image: url('https://scontent.fctt1-1.fna.fbcdn.net/v/t39.30808-6/308665400_465193958959782_6822843586758945317_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=YEgUMYogO88AX8ucUAY&_nc_ht=scontent.fctt1-1.fna&oh=00_AfBGYbUOzg2v-FJGG42q2TTjJxjelfUBkmFG7GDk90cEKA&oe=63924483');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%; height:100%;
+    background-color: #9DA7AA;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.navbar{
+    position:fixed;
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    margin:0;
+    padding:1em;
+    width:100%;
+    background-color:rgba(229, 235, 248, 0.5);
+    border-radius:0 0 30px 30px;
+}
+.navbar li{
+    margin:0 2em;
+}
+.navbar a{
+    font-size:2rem;
+    color:#56719E;
+    font-weight:bold;
+    padding:0.5em 1em;
+}
+.navbar li:hover, .active{
+    background-color:#F5F6F4;
+    border-radius:30px;
+}
+
+.header h1{
+    margin-top:2em;
+}
+
+.header h2{
+    margin-bottom:2em;
+}
+
+.header button{
+    padding:1em 2em;
+    background-color:#171512;
+    color:#F5F6F4;
+    margin:2em;
+}
+
+.header button:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+.icon{
+    padding:1em;
+}
+.icon a{
+    margin:1em;
+    padding:1em 0.4em 0.3em;
+    color:rgba(245, 246, 244, 0.5);
+    border-radius:10px;
+}
+.icon a:hover{
+    background-color:rgba(245, 246, 244, 0.5);
+    color:#171512;
+}
+
+/************************************************
+                      MAIN
+************************************************/
+
+/************************************************
+                     BOOKING
+************************************************/
+
+#booking textarea{
+    width:100%;
+}
+/************************************************
+                     MY WORK
+************************************************/
+
+/************************************************
+                    QUEST SPOTS
+************************************************/
+
+/************************************************
+                      ABOUT
+************************************************/
+
+/************************************************
+                      FOOTER
+************************************************/
+
+
+@media screen and (min-width: 780px){ /*tablette*/
+    
+}
+
+
+@media screen and (min-width: 980px){ /*desktop*/
+    
+}
